@@ -15,4 +15,4 @@ autoload -Uz promptinit
 promptinit
 prompt skwp
 
-bindkey '^R' history-incremental-search-backward
+export EDITOR=vim
