@@ -15,4 +15,7 @@ autoload -Uz promptinit
 promptinit
 prompt skwp
 
+alias xbg='xbacklight -get'
+alias xb='xbacklight -set'
+alias l='llpp'
 export EDITOR=vim
