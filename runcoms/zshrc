@@ -18,4 +18,7 @@ prompt skwp
 alias xbg='xbacklight -get'
 alias xb='xbacklight -set'
 alias l='llpp'
+
+bindkey '^R' history-incremental-search-backward
+bindkey '^H' backward-kill-word
 export EDITOR=vim
