@@ -28,3 +28,9 @@ alias lu='killall -SIGHUP llpp'
 bindkey '^R' history-incremental-search-backward
 bindkey '^H' backward-kill-word
 export EDITOR=vim
+
+# Nix
+if [ -e ${HOME}/.nix-profile/etc/profile.d/nix.sh ]
+then
+    source ${HOME}/.nix-profile/etc/profile.d/nix.sh
+fi
