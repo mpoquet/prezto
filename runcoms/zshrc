@@ -16,6 +16,9 @@ autoload -Uz promptinit
 promptinit
 prompt skwp
 
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
+
 alias xbg='xbacklight -get'
 alias xb='xbacklight -set'
 alias l='llpp'
