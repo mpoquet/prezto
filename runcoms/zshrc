@@ -27,6 +27,7 @@ alias lu='killall -SIGHUP llpp'
 alias emacs='emacs -nw'
 alias p='pygmentize'
 alias z='zathura'
+unalias gs
 
 function pl {
     pygmentize $1 | less -R
