@@ -24,6 +24,13 @@ alias xbg='xbacklight -get'
 alias xb='xbacklight -set'
 alias l='llpp'
 alias lu='killall -SIGHUP llpp'
+alias emacs='emacs -nw'
+alias p='pygmentize'
+alias z='zathura'
+
+function pl {
+    pygmentize $1 | less -R
+}
 
 bindkey '^R' history-incremental-search-backward
 bindkey '^H' backward-kill-word
