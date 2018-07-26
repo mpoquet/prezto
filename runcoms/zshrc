@@ -46,3 +46,6 @@ fi
 
 # Thefuck
 eval $(thefuck --alias)
+
+# direnv
+eval "$(direnv hook zsh)"
