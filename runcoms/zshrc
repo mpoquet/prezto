@@ -36,6 +36,7 @@ function pl {
 bindkey '^R' history-incremental-search-backward
 bindkey '^H' backward-kill-word
 export EDITOR=vim
+export GOPATH=${HOME}/go
 
 # Nix
 if [ -e ${HOME}/.nix-profile/etc/profile.d/nix.sh ]
