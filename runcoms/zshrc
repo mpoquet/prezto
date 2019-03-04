@@ -29,6 +29,7 @@ alias lu='killall -SIGHUP llpp'
 alias emacs='emacs -nw'
 alias p='pygmentize -O style=monokai'
 alias z='zathura'
+alias redis-server="echo 'appendonly no\nsave ""' | redis-server -"
 unalias gs
 
 function pl {
