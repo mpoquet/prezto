@@ -18,6 +18,7 @@ prompt skwp
 
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
+export FC=gfortran
 
 alias pacman='pacman --color=auto'
 alias xbg='xbacklight -get'
