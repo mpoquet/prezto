@@ -24,14 +24,15 @@ alias pacman='pacman --color=auto'
 alias xbg='xbacklight -get'
 alias xb='xbacklight -set'
 alias l='llpp'
+alias less='less -x4'
 alias lu='killall -SIGHUP llpp'
 alias emacs='emacs -nw'
-alias p='pygmentize'
+alias p='pygmentize -O style=monokai'
 alias z='zathura'
 unalias gs
 
 function pl {
-    pygmentize $1 | less -R
+    p $1 | less -R
 }
 
 bindkey '^R' history-incremental-search-backward
